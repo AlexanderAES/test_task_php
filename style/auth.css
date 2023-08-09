@@ -1,0 +1,51 @@
+body {
+    background-color: #ffffff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.authorize {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.authorize__wrapper {
+    max-width: 500px;
+    width: 100%;
+}
+
+.authorize__title {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.3;
+}
+
+.form-authorize {
+    margin-top: 20px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

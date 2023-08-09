@@ -1,0 +1,26 @@
+body {
+    background-color: #ffffff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+}
+.block {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.block__title {
+    font-size: 46px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+.block__link {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 10px;
+}
